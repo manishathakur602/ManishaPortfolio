@@ -8,7 +8,6 @@ import Mainpic from './../assets/Images/A1_33_261dffb8-1073-462d-b670-13e2d0b261
 
 
 
-
 // icons
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
@@ -21,13 +20,13 @@ import { CiLocationOn } from "react-icons/ci";
 function Sidebar() {
   return (
     <>
-      <div className='p-3 mt-14'>
+      <div className='p-3 mt-14 sm:flex gap-1'>
         <div className='bg-gray-200 mt-2 rounded-md p-2 flex flex-col items-center'>
               <div className=' h-[7rem] w-[7rem]'>
                    <img className='rounded-xl relative bottom-7 border-2 border-dashed border-yellow-400' src={Mainpic} />
                </div>
               <h1 className='text-[2rem] font-medium'>Manish</h1>
-             <p className='text-gray-800 font-light'> Front-End Developer</p>
+             <p className='text-gray-800 font-light'> Web Developer</p>
                 <div className=' mt-3 flex justify-evenly items-center w-[80%] text-[1.5rem]'>
                   <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer text-blue-800'><FaFacebookSquare /></Link>
                   <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  text-blue-800'><FaLinkedin /></Link>
@@ -61,13 +60,15 @@ function Sidebar() {
                           </div>
                      </div>
                      <div className='mt-5 p-2 grid place-items-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ... rounded-lg'>
-                     <Link to="" download="DownloadResume" className=''>Download</Link>
+                     <Link to="" download="DownloadResume">Download</Link>
                      </div>
                     
                </div>
                
         </div>
+     
     </div>
+    
     
     </>
   )
