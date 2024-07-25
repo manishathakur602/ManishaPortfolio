@@ -16,6 +16,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaMobileScreenButton } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
+import { GoDownload } from "react-icons/go";
 
 function Sidebar() {
   return (
@@ -60,7 +61,7 @@ function Sidebar() {
                           </div>
                      </div>
                      <div className='mt-5 p-2 grid place-items-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ... rounded-lg'>
-                     <Link to="" download="DownloadResume">Download</Link>
+                     <Link to="" download="DownloadResume" className='flex items-center gap-1'><GoDownload  /> Download Resume</Link>
                      </div>
                     
                </div>

@@ -1,6 +1,16 @@
 import React from 'react'
 import { MdOutlineDarkMode } from "react-icons/md";
-import Logo from './../assets/Images/Screenshot 2024-07-19 151646.png';
+import { Link } from 'react-router-dom';
+// import Logo from './../assets/Images/Screenshot 2024-07-19 151646.png';
+
+
+
+
+// icon import
+import { FaHome } from "react-icons/fa";
+import { MdMenuBook } from "react-icons/md";
+import { MdOutlineWorkOutline } from "react-icons/md";
+import { BiSolidContact } from "react-icons/bi";
 const Navbar = () => {
   return (
     <>
@@ -9,7 +19,8 @@ const Navbar = () => {
         {/* <img src={Logo} /> */}
             <i className='font-medium cursor-pointer text-[1.4rem] sm:text-[2rem]'>PORTFOLIO</i>
             <p className='text-[2rem] cursor-pointer ac'><MdOutlineDarkMode /></p>
-        </div>
+
+   </div>
       </nav>
     </>
   )
