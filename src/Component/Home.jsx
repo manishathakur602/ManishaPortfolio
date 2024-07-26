@@ -5,7 +5,7 @@ import Line from "./../assets/Line5.png";
 
 // icon import
 import { FaCode } from "react-icons/fa6";
-import { CiInstagram } from "react-icons/ci";
+// import { CiInstagram } from "react-icons/ci";
 import { SiCodementor } from "react-icons/si";
 const Home = () => {
   return (

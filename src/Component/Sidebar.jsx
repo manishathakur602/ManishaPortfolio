@@ -17,6 +17,7 @@ import { FaMobileScreenButton } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
 import { GoDownload } from "react-icons/go";
+import { FaGithub } from "react-icons/fa";
 
 function Sidebar() {
   return (
@@ -31,7 +32,7 @@ function Sidebar() {
                 <div className=' mt-3 flex justify-evenly items-center w-[80%] text-[1.5rem]'>
                   <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer text-blue-800'><FaFacebookSquare /></Link>
                   <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  text-blue-800'><FaLinkedin /></Link>
-                  <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  text-yellow-300'><FaSquareSnapchat /></Link>
+                  <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  '><FaGithub /></Link>
                   <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  text-pink-500'><FaInstagramSquare /></Link>
                 </div>
 
