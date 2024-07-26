@@ -17,16 +17,17 @@ function FirstSection() {
   // Define styles based on the clicked state
   const getLinkStyle = (icon) => ({
     backgroundColor: clicked === icon ? "red" : "gray",
+
   });
 
   return (
     <>
       <div className="p-2 sticky bottom-0 hidden sm:block sm:mt-3">
         <div className="mt-10 p-4 rounded-2xl flex justify-between gap-5">
-          <div className="bg-gray-600 text-white rounded-lg grid place-items-center cursor-pointer p-2" onClick={() => handleClick("home")}
-              style={getLinkStyle("home")}>
+          <div className="bg-gray-600 text-white rounded-lg grid place-items-center cursor-pointer p-2" onClick={() => handleClick("")}
+              style={getLinkStyle("")}>
             <NavLink
-              to="/home"
+              to="/"
               
             >
               <FaHome />
