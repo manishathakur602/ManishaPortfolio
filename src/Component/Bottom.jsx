@@ -27,7 +27,7 @@ function Bottom() {
      <div className='mt-10 p-4  rounded-2xl flex justify-between sm:hidden gap-5'>
         <div className='bg-gray-600 text-white rounded-lg grid place-items-center p-2' onClick={() => handleClick("home")}
               style={getLinkStyle("home")}>
-           <Link to="/home" ><FaHome /> </Link>
+           <Link to="/" ><FaHome /> </Link>
            <p className='text-[12px]'>Home</p>
         </div>
 

@@ -13,7 +13,8 @@ import Resume from './Component/Resume';
 function App() {
   return (
     <>
-    {/* <Navbar />
+    {/* <BrowserRouter>
+    <Navbar />
       <div className='sm:flex bg-gray-300 lg:pl-9 lg:pr-9'>
             <Sidebar />
               <div className='flex flex-col'>
@@ -24,7 +25,11 @@ function App() {
               <Home />
               </div>
         </div>
-    <Bottom /> */}
+    <Bottom />
+</BrowserRouter> */}
+
+
+
 
     <BrowserRouter>
     <Navbar />
