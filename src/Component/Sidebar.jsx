@@ -22,14 +22,14 @@ import { FaGithub } from "react-icons/fa";
 function Sidebar() {
   return (
     <>
-      <div className='p-3 mt-14 sm:flex gap-1'>
+      <div className='p-3 mt-14 '>
         <div className='bg-gray-200 mt-2 rounded-md p-2 flex flex-col items-center'>
               <div className=' h-[7rem] w-[7rem]'>
                    <img className='rounded-xl relative bottom-7 border-2 border-dashed border-yellow-400' src={Mainpic} />
                </div>
               <h1 className='text-[2rem] font-medium'>Manish</h1>
              <p className='text-gray-800 font-light'> Web Developer</p>
-                <div className=' mt-3 flex justify-evenly items-center w-[80%] text-[1.5rem]'>
+                <div className=' mt-3 flex justify-evenly items-center w-[80%] text-[1.5rem] sm:w-[20%]'>
                   <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer text-blue-800'><FaFacebookSquare /></Link>
                   <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  text-blue-800'><FaLinkedin /></Link>
                   <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  '><FaGithub /></Link>

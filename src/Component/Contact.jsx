@@ -10,14 +10,14 @@ import { FaCode } from "react-icons/fa6";
 
 // import { CiInstagram } from "react-icons/ci";
 import { SiCodementor } from "react-icons/si";
-function Resume() {
+function Contact() {
   return (
     <>
-     <div className="p-3 mt-10 sm:mt-0">
+      <div className="p-3 mt-10 sm:mt-0">
         <div className=" bg-gray-400 rounded-lg p-3">
           <div className="">
             <h1 className="font-semibold text-[1.5rem] text-center sm:text-left">
-              Resume
+              Contact
             </h1>
             <img src={Line} className="text-[1px]" />
             {/* <img src={Line}  className='text-[1px]'/> */}
@@ -77,4 +77,4 @@ throughout my career.
   )
 }
 
-export default Resume
+export default Contact
