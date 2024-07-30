@@ -29,7 +29,7 @@ function Sidebar() {
                </div>
               <h1 className='text-[2rem] font-medium'>Manish</h1>
              <p className='text-gray-800 font-light'> Web Developer</p>
-                <div className=' mt-3 flex justify-evenly items-center w-[80%] text-[1.5rem] sm:w-[20%]'>
+                <div className=' mt-3 flex justify-evenly items-center w-[80%] text-[1.5rem] sm:w-[90%]'>
                   <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer text-blue-800'><FaFacebookSquare /></Link>
                   <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  text-blue-800'><FaLinkedin /></Link>
                   <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  '><FaGithub /></Link>
@@ -61,8 +61,9 @@ function Sidebar() {
                           <p className='text-[12px] font-semibold'>Himachal Pradesh</p>
                           </div>
                      </div>
-                     <div className='mt-5 p-2 grid place-items-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ... rounded-lg'>
-                     <Link to="" download="DownloadResume" className='flex items-center gap-1'><GoDownload  /> Download Resume</Link>
+                     <div className='mt-5 p-2 grid place-items-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ... rounded-lg active:opacity-70'>
+                     <Link to="" download="DownloadResume" className='flex items-center gap-1 '><GoDownload  />Download Resume</Link>
+                    
                      </div>
                     
                </div>

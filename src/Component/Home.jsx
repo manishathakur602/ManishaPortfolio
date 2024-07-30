@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <div className="p-3 mt-10 sm:mt-0">
-        <div className=" bg-gray-400 rounded-lg p-3">
+        <div className=" bg-gray-400 rounded-lg p-4 sm:p-10">
           <div className="">
             <h1 className="font-semibold text-[1.5rem] text-center sm:text-left">
               About Me
@@ -31,16 +31,16 @@ const Home = () => {
 
           {/* first section */}
           <div className="md:flex md:gap-3 ">
-            <div className="mt-3 bg-red-200 rounded-xl p-4">
+            <div className="mt-3 bg-red-200 rounded-xl p-4 text">
               <div className=" flex gap-2 items-center">
                 <FaCode className="text-red-700" />
-                <h1 className="font-semibold text-[1.2rem]">Web development</h1>
+                <h1 className="font-semibold text-[1.2rem] ">Web development</h1>
               </div>
               <p className="mt-1">
                 As a developer, I find myself most captivated by the power and
                 flexibility of NEXT.js. I'm always eager to dive into new
                 projects that leverage NEXT.js and discover innovative ways to
-                create fast, scalable, and user-friendly applications.
+                create fast, scalable, and user-friendly applications .
               </p>
             </div>
 
@@ -48,15 +48,15 @@ const Home = () => {
 
             <div className="mt-3 bg-red-200 rounded-xl p-4">
               <div className=" flex gap-2 items-center">
-              <SiCodementor className="text-[#FF9C1A]" />
+              <SiCodementor className="text-red-700" />
                 <h1 className="font-semibold text-[1.4rem]">Mentorship</h1>
               </div>
               <p className="mt-1">
               I have also found great joy in sharing my 
-knowledge with others. Being a technical 
-mentor allows me to give back to the 
-community that has supported me 
-throughout my career. 
+              knowledge with others. Being a technical 
+              mentor allows me to give back to the 
+              community that has supported me 
+              throughout my career. 
               </p>
             </div>
 
