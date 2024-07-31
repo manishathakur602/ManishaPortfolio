@@ -30,8 +30,8 @@ const Home = () => {
           <h1 className="mt-5 font-medium text-2xl">What I Do!</h1>
 
           {/* first section */}
-          <div className="md:flex md:gap-3 ">
-            <div className="mt-3 bg-red-200 rounded-xl p-4 text">
+          <div className="lg:flex md:gap-3 ">
+            <div className="mt-3 bg-red-200 rounded-xl p-4 shadow-2xl shadow-black">
               <div className=" flex gap-2 items-center">
                 <FaCode className="text-red-700" />
                 <h1 className="font-semibold text-[1.2rem] ">Web development</h1>
@@ -46,7 +46,7 @@ const Home = () => {
 
             {/* second section */}
 
-            <div className="mt-3 bg-red-200 rounded-xl p-4">
+            <div className="mt-3 bg-red-200 rounded-xl p-4 shadow-2xl shadow-black">
               <div className=" flex gap-2 items-center">
               <SiCodementor className="text-red-700" />
                 <h1 className="font-semibold text-[1.4rem]">Mentorship</h1>
