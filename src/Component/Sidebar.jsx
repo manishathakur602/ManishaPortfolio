@@ -22,7 +22,7 @@ function Sidebar() {
   return (
     <>
       <div className='p-3 mt-14 '>
-        <div className='bg-gray-200 mt-2 rounded-md p-2 flex flex-col items-center'>
+        <div className='bg-gray-200 mt-2 rounded-md p-4 flex flex-col items-center'>
               <div className=' h-[7rem] w-[7rem]'>
                    <img className='rounded-xl relative bottom-7 border-2 border-dashed border-yellow-400' src={Mainpic} />
                </div>
@@ -36,7 +36,7 @@ function Sidebar() {
                 </div>
 
 
-              <div className='bg-gray-300 rounded-xl mt-10 p-3 '>
+              <div className='bg-gray-300 rounded-xl mt-10 p-3 shadow-sm shadow-black '>
                      <div className='flex items-center p-3 gap-3 rounded-md border-b-2 border-solid border-gray-500'>
                           <FaMobileScreenButton />
                           <div className=' rounded-xl '>
