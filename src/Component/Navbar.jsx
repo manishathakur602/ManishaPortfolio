@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className='bg-blue-500 text-white p-4'>
         <div className='flex justify-between items-center p-4 bg-sky-300 rounded-lg'>
         {/* <img src={Logo} /> */}
-            <i className='font-medium cursor-pointer text-[1.4rem] sm:text-[2rem]'>my PORTFOLIO</i>
+            <i className='font-medium cursor-pointer text-[1.4rem] sm:text-[2rem]'>PORTFOLIO</i>
             <p className='text-[2rem] cursor-pointer ac'><MdOutlineDarkMode /></p>
 
    </div>
