@@ -5,6 +5,7 @@ import React from 'react'
 // icon import
 import { PiStudent } from "react-icons/pi";
 import { FaLayerGroup } from "react-icons/fa6";
+import { FaNetworkWired } from "react-icons/fa";
 
 
 
@@ -17,7 +18,7 @@ function Resume() {
   return (
     <>
     <div className="p-3 mt-10 sm:mt-0">
-           <div className='bg-gray-400 rounded-lg p-3 sm:p-5 '>
+           <div className='bg-gray-400 rounded-lg p-3 sm:p-10'>
                   <div className=" ">
                       <h1 className="font-semibold text-[1.5rem] text-center sm:text-left">
                       Resume
@@ -25,7 +26,7 @@ function Resume() {
                       <img src={Line} className="text-[1px]" />
                   </div>
 {/*  main section of both group */}
-           <div className='mt-5  lg:flex lg:items-center lg:gap-10'>
+           <div className='mt-5  lg:flex  lg:gap-4 '>
                     {/* first section */}
                     <div className='  p-3 bg-white rounded-2xl shadow-2xl shadow-black'>
                             <div className='flex items-center gap-2'>
@@ -49,17 +50,15 @@ function Resume() {
                                         <p className='text-[13px]'>7.19</p>
                                         </div>
                                   </div>
-                                  <p className="mt-1">
-                                   
-                                  </p>
+                                  
                                 </div>
                              </div>
 
                              {/* second section */}
 
                              <div className=''>
-                             <div className=' p-3 bg-white rounded-2xl shadow-2xl shadow-black mt-6 lg:mt-0'>
-                            <div className='flex items-center gap-2'>
+                             <div className=' p-3 bg-white rounded-2xl shadow-2xl shadow-black mt-6 lg:mt-0 sm:p-9 lg:p-2 '>
+                            <div className='flex items-center gap-2 '>
 
                             <FaLayerGroup className="text-red-700 text-[1.2rem]" />
                                   <h1 className='font-semibold'>Experience </h1>
@@ -80,12 +79,68 @@ function Resume() {
                                         <p className='text-[13px]'>7.19</p>
                                         </div>
                                   </div>
-                                  <p className="mt-1">
-                                   
-                                  </p>
+                                </div>
+
+
+                                <div className="mt-3 bg-red-200 rounded-xl p-4 ">
+                                  <div className=" sm:flex sm:gap-7 sm:items-center">
+                                  
+                                        <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500">Degree</h1>
+                                        <p className='text-[13px]'>Rayat Bahra University</p>
+                                        </div>
+                                        <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500">Passing</h1>
+                                        <p className='text-[13px]'>2020-24</p>
+                                        </div>
+                                        <div className='sm:sm:flex flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500">CGPA</h1>
+                                        <p className='text-[13px]'>7.19</p>
+                                        </div>
+                                  </div>
                                 </div>
                              </div>
+
+
+
+
+
+
+
                              </div>
+
+
+
+
+
+                             <div className='  p-3 bg-white rounded-2xl shadow-2xl shadow-black mt-5  lg:mt-0 text-center '>
+                            <div className='flex items-center gap-2 '>
+
+                            <FaNetworkWired className="text-red-700 text-[1.2rem]" />
+                                  <h1 className='font-semibold'>Work Skills </h1>
+                            </div>
+                            <div className="mt-3  bg-red-200 rounded-xl p-4 sm:p-10 text-[17px] text-gray-600">
+                                  <div className=" flex gap-5 flex-wrap items-center font-semibold">
+                                  <h1 className='underline'>HTML5</h1>
+                                  <h1 className='underline'>CSS3</h1>
+                                  <h1 className='underline'>TAILWIND CSS</h1>
+                                  <h1 className='underline'>BOOTSTRAP</h1>
+                                  <h1 className='underline'>JAVASCRIPT</h1>
+                                  <h1 className='underline'>REACT.JS</h1>
+                                  <h1 className='underline'>EXPRESS.JS</h1>
+                                  <h1 className='underline'>WORDPRESS</h1>
+                                  <h1 className='underline'>SHOPIFY</h1>
+                                  <h1 className='underline'>GIT</h1>
+                                  <h1 className='underline'>GITHUB</h1>
+                                  </div>
+                                  
+                                </div>
+                             </div>
+
+
+
+
+
                              </div>
 
 

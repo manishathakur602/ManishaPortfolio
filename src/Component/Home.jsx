@@ -30,7 +30,7 @@ const Home = () => {
           <h1 className="mt-5 font-medium text-2xl">What I Do!</h1>
 
           {/* first section */}
-          <div className="lg:flex md:gap-3 ">
+          <div className="lg:flex lg:gap-3 ">
             <div className="mt-3 bg-red-200 rounded-xl p-4 shadow-2xl shadow-black">
               <div className=" flex gap-2 items-center">
                 <FaCode className="text-red-700" />
