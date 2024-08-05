@@ -26,9 +26,9 @@ function Resume() {
                       <img src={Line} className="text-[1px]" />
                   </div>
 {/*  main section of both group */}
-           <div className='mt-5  lg:flex  lg:gap-4 '>
+           <div className='mt-5  xl:flex  xl:gap-2 '>
                     {/* first section */}
-                    <div className='  p-3 bg-white rounded-2xl shadow-2xl shadow-black'>
+                    <div className='  p-3 bg-white rounded-2xl shadow-md shadow-black'>
                             <div className='flex items-center gap-2'>
 
                             <PiStudent className="text-red-700 text-[1.2rem]" />
@@ -56,8 +56,8 @@ function Resume() {
 
                              {/* second section */}
 
-                             <div className=''>
-                             <div className=' p-3 bg-white rounded-2xl shadow-2xl shadow-black mt-6 lg:mt-0 sm:p-9 lg:p-2 '>
+                             <div className='sm:mt-5 lg:mt-0'>
+                             <div className=' p-3 bg-white rounded-2xl shadow-md  shadow-black mt-6 lg:mt-0 sm:p-9 lg:p-2 '>
                             <div className='flex items-center gap-2 '>
 
                             <FaLayerGroup className="text-red-700 text-[1.2rem]" />
@@ -82,7 +82,7 @@ function Resume() {
                                 </div>
 
 
-                                <div className="mt-3 bg-red-200 rounded-xl p-4 ">
+                                <div className="mt-3 bg-red-200 rounded-xl p-4  ">
                                   <div className=" sm:flex sm:gap-7 sm:items-center">
                                   
                                         <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
@@ -112,8 +112,8 @@ function Resume() {
 
 
 
-
-                             <div className='  p-3 bg-white rounded-2xl shadow-2xl shadow-black mt-5  lg:mt-0 text-center '>
+                              <div className='mt-5 lg:mt-0'>
+                             <div className='  p-3 bg-white rounded-2xl shadow-md shadow-black mt-5  lg:mt-0 text-center  '>
                             <div className='flex items-center gap-2 '>
 
                             <FaNetworkWired className="text-red-700 text-[1.2rem]" />
@@ -136,7 +136,7 @@ function Resume() {
                                   
                                 </div>
                              </div>
-
+                              </div>
 
 
 

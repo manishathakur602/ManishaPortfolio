@@ -14,7 +14,7 @@ function Contact() {
   return (
     <>
     <div className="p-3 mt-10 sm:mt-0">
-        <div className='bg-gray-400 rounded-lg p-5 lg:p-10 lg:flex '>
+        <div className='bg-gray-400 rounded-lg p-5 lg:p-10 lg:flex lg:gap-4'>
         <div className=''>
         <div className=" ">
                       <h1 className="font-semibold text-[1.5rem] text-center sm:text-left">
@@ -25,7 +25,7 @@ function Contact() {
         
 
 
-        <div className='mt-6 sm:flex sm:gap-8'>
+        <div className='mt-6 lg:flex lg:gap-2'>
             <div className='bg-red-200 rounded-lg p-5 shadow-md shadow-black '>
                 <div className='flex items-center gap-2 just'>
                 <IoMdCall className='text-red-700' />
@@ -39,7 +39,7 @@ function Contact() {
             </div>
 
 
-            <div className='bg-red-200 rounded-lg p-5  mt-5 sm:mt-0 shadow-md shadow-black'>
+            <div className='bg-red-200 rounded-lg p-5  mt-5 sm:mt-5  lg:mt-0 shadow-md shadow-black'>
                 <div className='flex items-center gap-2 '>
                 <MdEmail  className='text-red-700' />
                 <p className='font-semibold'>Email-Id:</p>
@@ -66,7 +66,7 @@ function Contact() {
         
         </div>
         <form action="https://api.web3forms.com/submit" method="POST">
-        <div className='mt-3'>
+        <div className='mt-3 '>
 
         <input type="hidden" name="access_key" value="2e6b420c-849f-464e-aa8c-246b07844aaa" />
 

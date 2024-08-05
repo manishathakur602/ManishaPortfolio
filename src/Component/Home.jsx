@@ -31,7 +31,7 @@ const Home = () => {
 
           {/* first section */}
           <div className="lg:flex lg:gap-3 ">
-            <div className="mt-3 bg-red-200 rounded-xl p-4 shadow-2xl shadow-black">
+            <div className="mt-3 bg-red-200 rounded-xl p-4 shadow-md shadow-black">
               <div className=" flex gap-2 items-center">
                 <FaCode className="text-red-700" />
                 <h1 className="font-semibold text-[1.2rem] ">Web development</h1>
@@ -46,7 +46,7 @@ const Home = () => {
 
             {/* second section */}
 
-            <div className="mt-3 bg-red-200 rounded-xl p-4 shadow-2xl shadow-black">
+            <div className="mt-3 bg-red-200 rounded-xl p-4 shadow-md shadow-black">
               <div className=" flex gap-2 items-center">
               <SiCodementor className="text-red-700" />
                 <h1 className="font-semibold text-[1.4rem]">Mentorship</h1>
