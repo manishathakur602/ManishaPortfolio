@@ -37,8 +37,8 @@ function Work() {
                     <p className=' font-normal text-sm'>hotel-booking</p>
 
                         <div className='flex items-center gap-5'>
-                        <Link to="https://github.com/Manish6906/hotel-booking"  target='_blank' className='text-white' >Visit</Link>
-                        <Link to="https://hotel-booking-nine-black.vercel.app/" target='_blank' className='text-white text-[1.2rem]' ><FaGithub /></Link>
+                        <Link to="https://hotel-booking-nine-black.vercel.app/"  target='_blank' className='text-white' >Visit</Link>
+                        <Link to="https://github.com/Manish6906/hotel-booking" target='_blank' className='text-white text-[1.2rem]' ><FaGithub /></Link>
 
                         </div>
                     </div>
