@@ -63,7 +63,26 @@ function Resume() {
                             <FaLayerGroup className="text-red-700 text-[1.2rem]" />
                                   <h1 className='font-semibold'>Experience </h1>
                             </div>
-                            <div className="mt-3 bg-red-200 rounded-xl p-4 ">
+                            <div className="mt-3 bg-red-200 rounded-xl p-4 text-center ">
+                                  <div className=" ">
+                                  
+                                        <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500 text-[13px]">Company Name</h1>
+                                        <p className='text-[13px]'>Kreativan technologies</p>
+                                        </div>
+                                        <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500">From</h1>
+                                        <p className='text-[13px]'>15-Jan-2024</p>
+                                        </div>
+                                        <div className='sm:sm:flex flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500">To</h1>
+                                        <p className='text-[13px]'>Present</p>
+                                        </div>
+                                  </div>
+                                </div>
+
+
+                                {/* <div className="mt-3 bg-red-200 rounded-xl p-4  xl:mt-0 ">
                                   <div className=" sm:flex sm:gap-7 sm:items-center">
                                   
                                         <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
@@ -79,26 +98,7 @@ function Resume() {
                                         <p className='text-[13px]'>7.19</p>
                                         </div>
                                   </div>
-                                </div>
-
-
-                                <div className="mt-3 bg-red-200 rounded-xl p-4  xl:mt-0 ">
-                                  <div className=" sm:flex sm:gap-7 sm:items-center">
-                                  
-                                        <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
-                                        <h1 className="font-semibold text-gray-500">Degree</h1>
-                                        <p className='text-[13px]'>Rayat Bahra University</p>
-                                        </div>
-                                        <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
-                                        <h1 className="font-semibold text-gray-500">Passing</h1>
-                                        <p className='text-[13px]'>2020-24</p>
-                                        </div>
-                                        <div className='sm:sm:flex flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
-                                        <h1 className="font-semibold text-gray-500">CGPA</h1>
-                                        <p className='text-[13px]'>7.19</p>
-                                        </div>
-                                  </div>
-                                </div>
+                                </div> */}
                              </div>
 
 
