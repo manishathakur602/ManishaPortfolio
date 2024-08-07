@@ -38,8 +38,8 @@ const Home = () => {
               </div>
               <p className="mt-1">
                 As a developer, I find myself most captivated by the power and
-                flexibility of NEXT.js. I'm always eager to dive into new
-                projects that leverage NEXT.js and discover innovative ways to
+                flexibility of React.js. I'm always eager to dive into new
+                projects that leverage React.js and discover innovative ways to
                 create fast, scalable, and user-friendly applications .
               </p>
             </div>

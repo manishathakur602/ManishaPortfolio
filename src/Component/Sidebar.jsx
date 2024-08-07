@@ -1,12 +1,12 @@
 import React from 'react'
-import { Outlet, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 
 
 
 // import picture
 import Mainpic from './../assets/Images/A1_33_261dffb8-1073-462d-b670-13e2d0b2616a.webp';
 
-
+import pdf from "../assets/school.pdf"
 
 // icons
 import { FaFacebookSquare } from "react-icons/fa";
@@ -17,6 +17,7 @@ import { MdOutlineMail } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
 import { GoDownload } from "react-icons/go";
 import { FaGithub } from "react-icons/fa";
+import App from './../App';
 
 function Sidebar() {
   return (
@@ -29,10 +30,10 @@ function Sidebar() {
               <h1 className='text-[2rem] font-medium'>Manish</h1>
              <p className='text-gray-800 font-light'> Web Developer</p>
                 <div className=' mt-3 flex justify-evenly items-center w-[80%] text-[1.5rem] sm:w-[90%]'>
-                  <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer text-blue-800'><FaFacebookSquare /></Link>
-                  <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  text-blue-800'><FaLinkedin /></Link>
-                  <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  '><FaGithub /></Link>
-                  <Link to="#" className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  text-pink-500'><FaInstagramSquare /></Link>
+                  <Link to="https://www.facebook.com/profile.php?id=100042788022907" target='_blank' className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer text-blue-800'><FaFacebookSquare /></Link>
+                  <Link to="https://www.linkedin.com/in/manish-0983b6204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  text-blue-800'><FaLinkedin /></Link>
+                  <Link to="https://github.com/" target='_blank' className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  '><FaGithub /></Link>
+                  <Link to="https://www.instagram.com/?hl=en" target='_blank' className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  text-pink-500'><FaInstagramSquare /></Link>
                 </div>
 
 
@@ -61,7 +62,7 @@ function Sidebar() {
                           </div>
                      </div>
                      <div className='mt-5 p-2 grid place-items-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ... rounded-lg active:opacity-70 shadow-2xl shadow-black'>
-                     <Link to="" download="DownloadResume" className='flex items-center gap-1 '><GoDownload  />Download Resume</Link>
+                     <button  download="DownloadResume" className='flex items-center gap-1 '><GoDownload  /><a href={pdf} download='Resume'>Download Resume </a></button>
                     
                      </div>
                     

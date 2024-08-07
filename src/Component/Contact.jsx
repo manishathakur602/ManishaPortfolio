@@ -39,7 +39,7 @@ function Contact() {
             </div>
 
 
-            <div className='bg-red-200 rounded-lg p-5  mt-5 sm:mt-5  lg:mt-0 shadow-md shadow-black'>
+            <div className='bg-red-200 rounded-lg p-5  mt-5 sm:mt-5  lg:mt-0 shadow-md shadow-black '>
                 <div className='flex items-center gap-2 '>
                 <MdEmail  className='text-red-700' />
                 <p className='font-semibold'>Email-Id:</p>
@@ -72,10 +72,10 @@ function Contact() {
 
         
         <label for="Name" className='font-semibold'>Name:</label>
-          <input type='text' name="Name" required className=' outline-0 border-b-2 border-black bg-gray-400 w-full rounded-md p-2'/>
-          <label for="Email" className='font-semibold mt-3'>Email:</label>
-          <input type='email' name="Email" required className=' outline-0 border-b-2 border-black bg-gray-400 w-full rounded-md p-2' />
-          <label for="Message" className='font-semibold mt-3'>Message:</label>
+          <input type='text' name="Name" required className=' outline-0 border-b-2 mb-3 border-black bg-gray-400 w-full rounded-md p-2'/>
+          <label for="Email" className='font-semibold '>Email:</label>
+          <input type='email' name="Email" required className=' outline-0 border-b-2 mb-3 border-black bg-gray-400 w-full rounded-md p-2' />
+          <label for="Message" className='font-semibold '>Message:</label>
           <input type='text' name="Message" required className=' outline-0 border-b-2 border-black bg-gray-400 w-full rounded-md p-2' />
        
           <button className='border-2 border-yellow-300 rounded-full p-2 mt-5 font-bold'>Submit</button>

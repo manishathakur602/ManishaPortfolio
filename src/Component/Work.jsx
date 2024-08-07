@@ -10,6 +10,9 @@ import code from './../assets/code.png';
 
 
 
+// icon import
+import { FaGithub } from "react-icons/fa6";
+
 
 function Work() {
   return (
@@ -31,8 +34,13 @@ function Work() {
                       <p className='mt-3 font-medium'>Web Development</p>
 
                     <div className='flex items-center justify-between p-1'>
-                    <p className=' font-normal text-sm'>Netflix Clone</p>
-                    <Link to="https://hotel-booking-app-cyan.vercel.app/" className='text-white' >Visit</Link>
+                    <p className=' font-normal text-sm'>hotel-booking</p>
+
+                        <div className='flex items-center gap-5'>
+                        <Link to="https://github.com/Manish6906/hotel-booking"  target='_blank' className='text-white' >Visit</Link>
+                        <Link to="https://hotel-booking-nine-black.vercel.app/" target='_blank' className='text-white text-[1.2rem]' ><FaGithub /></Link>
+
+                        </div>
                     </div>
                     </div>
                       
@@ -43,7 +51,11 @@ function Work() {
 
                     <div className='flex items-center justify-between p-1'>
                     <p className=' font-normal text-sm'>wooden-galaxy</p>
-                    <Link to="https://wooden-galaxy-chi.vercel.app/" className='text-white' >Visit</Link>
+                        <div className='flex items-center gap-5'>
+                        <Link to="https://wooden-galaxy-chi.vercel.app/"  target='_blank' className='text-white' >Visit</Link>
+                        <Link to="https://github.com/Manish6906/wooden-galaxy" target='_blank' className='text-white text-[1.2rem]' ><FaGithub /></Link>
+
+                        </div>
                     </div>
                     </div>
 
@@ -58,7 +70,11 @@ function Work() {
 
                     <div className='flex items-center justify-between p-1'>
                     <p className=' font-normal text-sm'>Password Generator</p>
-                    <Link to="https://password-generator-zeta-gules-23.vercel.app/" className='text-white' >Visit</Link>
+                          <div  className='flex items-center gap-5'>
+                          <Link to="https://password-generator-zeta-gules-23.vercel.app/"  target='_blank' className='text-white' >Visit</Link>
+                          <Link to="https://github.com/Manish6906/PasswordGenerator" target='_blank' className='text-white text-[1.2rem]' ><FaGithub /></Link>
+
+                          </div>
                     </div>
                     </div>
 
