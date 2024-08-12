@@ -1,6 +1,7 @@
 import React from 'react'
 import {  Link } from "react-router-dom";
-
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 
 // import picture
@@ -23,7 +24,7 @@ function Sidebar() {
   return (
     <>
       <div className='p-3 mt-14 '>
-        <div className='bg-gray-200 mt-2 rounded-md p-4 flex flex-col items-center'>
+        <div className='bg-gray-200 mt-2 rounded-md p-4 flex flex-col items-center' data-Aos="zoom-in">
               <div className=' h-[7rem] w-[7rem]'>
                    <img className='rounded-xl relative bottom-7 border-2 border-dashed border-yellow-400' src={Mainpic} />
                </div>

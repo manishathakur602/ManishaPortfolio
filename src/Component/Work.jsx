@@ -18,7 +18,7 @@ function Work() {
   return (
     <>
       <div className='p-3 mt-10 sm:mt-0'>
-            <div className='bg-gray-400 rounded-lg p-5  sm:p-10'>
+            <div className='bg-gray-400 rounded-lg p-5  sm:p-10' >
                 <div>
                     <h1 className='font-semibold text-[1.5rem] text-center sm:text-left'>Portfolio</h1>
                     <img src={Line} />
@@ -27,7 +27,7 @@ function Work() {
                     <Link to="#" className='text-gray-800 '>All Project</Link>
                   </div>
 
-                  <div className='mt-4 lg:flex lg:gap-5'>
+                  <div className='mt-4 lg:flex lg:gap-5' data-aos="fade-in">
 
                     <div className='bg-gray-600 p-2 shadow-md shadow-black rounded-md '>
                       <img  src={firstpicture} />

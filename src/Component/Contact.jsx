@@ -15,7 +15,7 @@ function Contact() {
     <>
     <div className="p-3 mt-10 sm:mt-0">
         <div className='bg-gray-400 rounded-lg p-5 lg:p-10 lg:flex lg:gap-4'>
-        <div className=''>
+        <div className='' data-aos="fade-in">
         <div className=" ">
                       <h1 className="font-semibold text-[1.5rem] text-center sm:text-left">
                       Contact
@@ -52,7 +52,7 @@ function Contact() {
 
 
         </div>
-        <p className='mt-5 text-gray-800'>I am always open to discussing <b>new projects, opportunities in tech world,
+        <p className='mt-5 text-gray-800'  data-aos="fade-in">I am always open to discussing <b>new projects, opportunities in tech world,
         partnerships </b>and more so <b>mentorship</b>. </p>
 
 
@@ -65,7 +65,7 @@ function Contact() {
         
         
         </div>
-        <form action="https://api.web3forms.com/submit" method="POST">
+        <form action="https://api.web3forms.com/submit" method="POST"  data-aos="fade-in">
         <div className='mt-3 '>
 
         <input type="hidden" name="access_key" value="2e6b420c-849f-464e-aa8c-246b07844aaa" />

@@ -22,7 +22,7 @@ function Bottom() {
     backgroundColor: clicked === icon ? "red" : "gray",
   });
   return (
-    <>
+    <> 
     <div className='p-2 sticky bottom-0'>   
      <div className='mt-10 p-4  rounded-2xl flex justify-between sm:hidden gap-5'>
        
@@ -30,7 +30,7 @@ function Bottom() {
               style={getLinkStyle("home")} ><FaHome /> 
                <p className='text-[12px]'>Home</p>
                </Link>
-          
+               
       
 
         {/* second icon */}
