@@ -109,7 +109,6 @@ function Resume() {
                                   <h1 className='underline'>BOOTSTRAP</h1>
                                   <h1 className='underline'>JAVASCRIPT</h1>
                                   <h1 className='underline'>REACT.JS</h1>
-                                  <h1 className='underline'>EXPRESS.JS</h1>
                                   <h1 className='underline'>WORDPRESS</h1>
                                   <h1 className='underline'>SHOPIFY</h1>
                                   <h1 className='underline'>GIT</h1>
