@@ -25,7 +25,7 @@ const Home = () => {
             </h1>
             <img src={Line} className="text-[1px]" />
             {/* <img src={Line}  className='text-[1px]'/> */}
-            <p className="mt-4 text-center sm:text-left border-b-2 border-solid border-gray-500 rounded-lg p-2" data-aos="fade-left">
+            <p className="mt-4 text-center sm:text-left border-b-2 border-solid border-gray-500 rounded-lg p-2" data-aos="fade-up">
               Hello there! I'm thrilled to welcome you to my portfolio. I am a
               passionate and versatile full-stack developer with a keen interest
               in exploring the latest cutting-edge technologies. My journey in
