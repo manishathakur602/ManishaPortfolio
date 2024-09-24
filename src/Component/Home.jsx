@@ -31,7 +31,7 @@ const Home = () => {
               in exploring the latest cutting-edge technologies. My journey in
               the world of web development has been nothing short of
               exhilarating, and I constantly strive to enhance my skills and
-              embrace emerging trends in the industry.
+              embrace emerging trends in the industry. 
             </p>
           </div>
           <h1 className="mt-5 font-medium text-2xl">What I Do!</h1>
@@ -58,7 +58,7 @@ const Home = () => {
               <SiCodementor className="text-red-700" />
                 <h1 className="font-semibold text-[1.4rem]">Mentorship</h1>
               </div>
-              <p className="mt-1">
+              <p className="mt-1"> 
               I have also found great joy in sharing my 
               knowledge with others. Being a technical 
               mentor allows me to give back to the 

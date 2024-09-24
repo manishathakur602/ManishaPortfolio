@@ -33,8 +33,8 @@ function Contact() {
                 </div>
                     <div className='text-gray-800 mt-2  '>
 
-                          <address>+91 7807895370</address> 
-                          <address>+91 7807895370</address>
+                          <address>+91 7814321620</address> 
+                          <address>+91 7814321620</address>
                     </div>
             </div>
 
@@ -46,7 +46,7 @@ function Contact() {
                 </div>
                     <div className='text-gray-800 mt-2'>
 
-                          <address>manishsharma6906@gmail.com</address>
+                          <address>manishathakur602@gmail.com</address>
                     </div>
             </div>
 
@@ -55,20 +55,12 @@ function Contact() {
         <p className='mt-5 text-gray-800'  data-aos="fade-in">I am always open to discussing <b>new projects, opportunities in tech world,
         partnerships </b>and more so <b>mentorship</b>. </p>
 
-
-
-        
-        
-        
-        
-        
-        
-        
+             
         </div>
         <form action="https://api.web3forms.com/submit" method="POST"  data-aos="fade-in">
         <div className='mt-3 '>
 
-        <input type="hidden" name="access_key" value="2e6b420c-849f-464e-aa8c-246b07844aaa" />
+        <input type="hidden" name="access_key" value="7a27f6b4-231f-4e58-b335-289247fde9df" />
 
         
         <label for="Name" className='font-semibold'>Name:</label>

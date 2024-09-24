@@ -39,15 +39,15 @@ function Resume() {
                                   
                                         <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">Degree</h1>
-                                        <p className='text-[13px]'>Rayat Bahra University</p>
+                                        <p className='text-[13px]'>Doaba Group Of College</p>
                                         </div>
                                         <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">Passing</h1>
-                                        <p className='text-[13px]'>2020-24</p>
+                                        <p className='text-[13px]'>2021-24</p>
                                         </div>
                                         <div className='sm:sm:flex flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">CGPA</h1>
-                                        <p className='text-[13px]'>7.19</p>
+                                        <p className='text-[13px]'>8.17</p>
                                         </div>
                                   </div>
                                   
@@ -72,7 +72,7 @@ function Resume() {
                                         </div>
                                         <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">From</h1>
-                                        <p className='text-[13px]'>15-Jan-2024</p>
+                                        <p className='text-[13px]'>16-Jan-2024</p>
                                         </div>
                                         <div className='sm:sm:flex flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">To</h1>

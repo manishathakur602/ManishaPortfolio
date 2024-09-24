@@ -11,6 +11,7 @@ const Navbar = () => {
         
             <i className='font-medium cursor-pointer text-[1.4rem] sm:text-[2rem]'>PORTFOLIO</i>
             <p className='text-[2rem] cursor-pointer ac'><FaRegUserCircle /></p>
+            
 
    </div>
       </nav>
