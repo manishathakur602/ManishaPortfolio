@@ -31,7 +31,7 @@ function Sidebar() {
                </div>
               <h1 className='text-[2rem] font-medium'>Manisha</h1>
              <p className='text-gray-800 font-light'> Web Developer</p>
-                <div className=' mt-3 flex justify-evenly items-center w-[80%] text-[1.5rem] sm:w-[60%]'>
+                <div className=' mt-3 flex justify-evenly items-center w-[50%] text-[1.5rem] sm:w-[60%]'>
                   {/* <Link to="https://www.facebook.com/profile.php?id=100042788022907" target='_blank' className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer text-blue-800'><FaFacebookSquare /></Link> */}
                   <Link to="https://www.linkedin.com/in/manisha-thakur-05b179311/" target='_blank' className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  text-blue-800'><FaLinkedin /></Link>
                   <Link to="https://github.com/manishathakur602" target='_blank' className='bg-sky-300 rounded-lg p-[0.5rem] cursor-pointer  '><FaGithub /></Link>
