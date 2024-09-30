@@ -7,7 +7,7 @@ import "aos/dist/aos.css"
 // import picture
 import Mainpic from './../assets/Images/A1_33_261dffb8-1073-462d-b670-13e2d0b2616a.webp';
 
-import pdf from "../assets/Images/ManishaCV.pdf"
+import pdf from "../assets/Images/Manisharesume.pdf"
 
 // icons
 import { FaFacebookSquare } from "react-icons/fa";
