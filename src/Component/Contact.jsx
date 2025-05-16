@@ -60,7 +60,7 @@ function Contact() {
         <form action="https://api.web3forms.com/submit" method="POST"  data-aos="fade-in">
         <div className='mt-3 '>
 
-        <input type="hidden" name="access_key" value="7a27f6b4-231f-4e58-b335-289247fde9df" />
+        <input type="hidden" name="access_key" value="8823c8f7-c1e1-479e-b8d4-0f4dbed407c8" />
 
         
         <label for="Name" className='font-semibold'>Name:</label>
