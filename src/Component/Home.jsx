@@ -17,7 +17,7 @@ const Home = () => {
   },[])
   return (
     <>
-      <div className="p-3 mt-10 sm:mt-0">
+      <div className="p-3 mt-10 sm:mt-0 livvic-lighta">
         <div className=" bg-gray-400 rounded-lg p-4 sm:p-10">
           <div className="">
             <h1 className="font-semibold text-[1.5rem] text-center sm:text-left">

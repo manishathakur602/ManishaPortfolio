@@ -17,7 +17,7 @@ import Line from "./../assets/Line5.png";
 function Resume() {
   return (
     <>
-    <div className="p-3 mt-10 sm:mt-0">
+    <div className="p-3 mt-10 sm:mt-0 livvic-lighta">
            <div className='bg-gray-400 rounded-lg p-3 sm:p-10'>
                   <div className=" ">
                       <h1 className="font-semibold text-[1.5rem] text-center sm:text-left">
@@ -39,7 +39,7 @@ function Resume() {
                                   
                                         <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">Degree</h1>
-                                        <p className='text-[13px]'>Doaba Group Of College</p>
+                                        <p className='text-[13px]'>Doaba Group of college</p>
                                         </div>
                                         <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">Passing</h1>
@@ -63,8 +63,8 @@ function Resume() {
                             <FaLayerGroup className="text-red-700 text-[1.2rem]" />
                                   <h1 className='font-semibold'>Experience </h1>
                             </div>
-                            <div className="mt-3 bg-red-200 rounded-xl p-4 text-center ">
-                                  <div className=" ">
+                            <div className="mt-3 bg-red-200 rounded-xl  p-4 text-center ">
+                                  <div className="flex gap-3 ">
                                   
                                         <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500 text-[13px]">Company Name</h1>
@@ -72,7 +72,26 @@ function Resume() {
                                         </div>
                                         <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">From</h1>
-                                        <p className='text-[13px]'>16-Jan-2024</p>
+                                        <p className='text-[13px]'>15-Jan-24</p>
+                                        </div>
+                                        <div className='sm:sm:flex flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500">To</h1>
+                                        <p className='text-[13px]'>30-Sept-24</p>
+                                        </div>
+                                  </div>
+                                </div>
+
+
+                                <div className="mt-3 bg-red-200 rounded-xl  p-4 text-center ">
+                                  <div className="flex gap-3 ">
+                                  
+                                        <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500 text-[13px]">Company Name</h1>
+                                        <p className='text-[13px]'>DigiSky Fusion</p>
+                                        </div>
+                                        <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500">From</h1>
+                                        <p className='text-[13px]'>31-Jan-25</p>
                                         </div>
                                         <div className='sm:sm:flex flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">To</h1>
@@ -85,9 +104,7 @@ function Resume() {
 
 
 
-
-
-
+                             
 
                              </div>
 
@@ -109,10 +126,13 @@ function Resume() {
                                   <h1 className='underline'>BOOTSTRAP</h1>
                                   <h1 className='underline'>JAVASCRIPT</h1>
                                   <h1 className='underline'>REACT.JS</h1>
-                                  <h1 className='underline'>WORDPRESS</h1>
-                                  <h1 className='underline'>SHOPIFY</h1>
+                                  <h1 className='underline'>Node.js</h1>
+                                  <h1 className='underline'>Express.js</h1>
+                                  <h1 className='underline'>MongoDB</h1>
                                   <h1 className='underline'>GIT</h1>
                                   <h1 className='underline'>GITHUB</h1>
+                                  <h1 className='underline'>Wordpress</h1>
+                                  <h1 className='underline'>Figma</h1>
                                   </div>
                                   
                                 </div>
