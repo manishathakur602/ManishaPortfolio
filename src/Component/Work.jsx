@@ -8,6 +8,7 @@ import freelancer from '../assets/Screenshot 2025-05-16 102912.png';
 import tanish from '../assets/Images/imag1.jpg';
 import digisky from '../assets/Images/imag2.jpg';
 import astrologer from '../assets/Images/image3.jpg';
+import shaadi from '../assets/Images/Screenshot 2025-06-03 095609.png';
 
 
 
@@ -43,6 +44,13 @@ const projects = [
     name: 'Tanish Enterpris',
     visitLink: 'https://tanishenterpriss.com/',
     githubLink: 'https://github.com/manishathakur602/Construction'
+  },
+  {
+    image: shaadi,
+    title: 'Web Development',
+    name: 'Shaadi Sanskar',
+    visitLink: 'https://www.shaadisanskar.com/',
+    githubLink: 'https://github.com/Digiskyfusion/Shaadi'
   },
  
 ];
