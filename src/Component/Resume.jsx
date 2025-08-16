@@ -76,7 +76,7 @@ function Resume() {
                                         </div>
                                         <div className='sm:sm:flex flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">To</h1>
-                                        <p className='text-[13px]'>30-Sept-24</p>
+                                        <p className='text-[13px]'>30-Jan-25</p>
                                         </div>
                                   </div>
                                 </div>
@@ -91,7 +91,7 @@ function Resume() {
                                         </div>
                                         <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">From</h1>
-                                        <p className='text-[13px]'>31-Jan-25</p>
+                                        <p className='text-[13px]'>03-Feb-25</p>
                                         </div>
                                         <div className='sm:sm:flex flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">To</h1>
@@ -126,13 +126,13 @@ function Resume() {
                                   <h1 className='underline'>BOOTSTRAP</h1>
                                   <h1 className='underline'>JAVASCRIPT</h1>
                                   <h1 className='underline'>REACT.JS</h1>
-                                  <h1 className='underline'>Node.js</h1>
-                                  <h1 className='underline'>Express.js</h1>
-                                  <h1 className='underline'>MongoDB</h1>
+                                  {/* <h1 className='underline'>Node.js</h1> */}
+                                  {/* <h1 className='underline'>Express.js</h1> */}
+                                  {/* <h1 className='underline'>MongoDB</h1> */}
                                   <h1 className='underline'>GIT</h1>
                                   <h1 className='underline'>GITHUB</h1>
                                   <h1 className='underline'>Wordpress</h1>
-                                  <h1 className='underline'>Figma</h1>
+                                  {/* <h1 className='underline'>Figma</h1> */}
                                   </div>
                                   
                                 </div>
