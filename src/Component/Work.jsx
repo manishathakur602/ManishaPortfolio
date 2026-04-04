@@ -49,7 +49,7 @@ const projects = [
   {
     image: nodegree,
     title: 'Web Development',
-    name: 'Metaponder Solution',
+    name: 'Nodegree',
     visitLink: 'https://nodegree.in/',
     githubLink: 'https://github.com/gsmental/nodegree_next'
   },
