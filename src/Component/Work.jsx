@@ -25,13 +25,7 @@ const projects = [
     visitLink: 'https://digiskyfusion.com/',
     githubLink: 'https://github.com/manishathakur602/DigiskyfusionWebsite'
   },
-   {
-    image: freelancer,
-    title: 'Web Development',
-    name: 'Digisky.ai',
-    visitLink: 'https://digisky.ai/',
-    githubLink: 'https://github.com/manishathakur602/Project-Frontend'
-  },
+   
   {
     image: astrologer,
     title: 'Web Development',
@@ -60,6 +54,13 @@ const projects = [
     name: 'Tanish Enterpris',
     visitLink: 'https://tanishenterpriss.com/',
     githubLink: 'https://github.com/manishathakur602/Construction'
+  },
+  {
+    image: freelancer,
+    title: 'Web Development',
+    name: 'Digisky.ai',
+    visitLink: 'https://digisky.ai/',
+    githubLink: 'https://github.com/manishathakur602/Project-Frontend'
   },
   {
     image: shaadi,

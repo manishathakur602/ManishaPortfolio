@@ -65,7 +65,7 @@ function Sidebar() {
             <div className='mt-5 p-2 grid place-items-center bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 rounded-lg active:opacity-70 shadow-2xl shadow-black livvic-lighta'>
               <button className='flex items-center gap-1 text-black font-medium'>
                 <GoDownload />
-                <a href={pdf} download="ManishCV">Download Resume</a>
+                <a href={pdf} download="Manisha_Resume">Download Resume</a>
               </button>
             </div>
 
