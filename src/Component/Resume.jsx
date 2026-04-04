@@ -67,7 +67,7 @@ function Resume() {
                                   <div className="flex gap-3 ">
                                   
                                         <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
-                                        <h1 className="font-semibold text-gray-500 text-[13px]">Company Name</h1>
+                                        <h1 className="font-semibold text-gray-500 text-[13px]">1. Company Name</h1>
                                         <p className='text-[13px]'>Kreativan technologies</p>
                                         </div>
                                         <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
@@ -82,11 +82,12 @@ function Resume() {
                                 </div>
 
 
-                                <div className="mt-3 bg-red-200 rounded-xl  p-4 text-center ">
+                               <div className='sm:flex gap-3'>
+                                     <div className="mt-3 bg-red-200 rounded-xl  p-4 text-center ">
                                   <div className="flex gap-3 ">
                                   
                                         <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
-                                        <h1 className="font-semibold text-gray-500 text-[13px]">Company Name</h1>
+                                        <h1 className="font-semibold text-gray-500 text-[13px]">2.Company Name</h1>
                                         <p className='text-[13px]'>DigiSky Fusion</p>
                                         </div>
                                         <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
@@ -95,10 +96,28 @@ function Resume() {
                                         </div>
                                         <div className='sm:sm:flex flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
                                         <h1 className="font-semibold text-gray-500">To</h1>
+                                        <p className='text-[13px]'>30-June-2025</p>
+                                        </div>
+                                  </div>
+                                </div>
+                                 <div className="mt-3 bg-red-200 rounded-xl  p-4 text-center ">
+                                  <div className="flex gap-3 ">
+                                  
+                                        <div className=' border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500 text-[13px]">3.Company Name</h1>
+                                        <p className='text-[13px]'>Metaponder Solution</p>
+                                        </div>
+                                        <div className='sm:flex sm:flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500">From</h1>
+                                        <p className='text-[13px]'>01-Sept-25</p>
+                                        </div>
+                                        <div className='sm:sm:flex flex-col sm:items-center border-solid border-b-2 border-gray-700 rounded-md p-2'>
+                                        <h1 className="font-semibold text-gray-500">To</h1>
                                         <p className='text-[13px]'>Present</p>
                                         </div>
                                   </div>
                                 </div>
+                               </div>
 
                              </div>
 
@@ -118,7 +137,7 @@ function Resume() {
                             <FaNetworkWired className="text-red-700 text-[1.2rem]" />
                                   <h1 className='font-semibold'>Work Skills </h1>
                             </div>
-                            <div className="mt-3  bg-red-200 rounded-xl p-4 sm:p-10 text-[17px] text-gray-600">
+                            <div className="mt-3  bg-red-200 rounded-xl p-4 sm:p-6 text-[16px] text-gray-600">
                                   <div className=" flex gap-5 flex-wrap items-center font-semibold">
                                   <h1 className='underline'>HTML5</h1>
                                   <h1 className='underline'>CSS3</h1>
@@ -126,12 +145,14 @@ function Resume() {
                                   <h1 className='underline'>BOOTSTRAP</h1>
                                   <h1 className='underline'>JAVASCRIPT</h1>
                                   <h1 className='underline'>REACT.JS</h1>
+                                  <h1 className='underline'>NEXT.JS (Basic)</h1>
                                   {/* <h1 className='underline'>Node.js</h1> */}
                                   {/* <h1 className='underline'>Express.js</h1> */}
                                   {/* <h1 className='underline'>MongoDB</h1> */}
                                   <h1 className='underline'>GIT</h1>
-                                  <h1 className='underline'>GITHUB</h1>
-                                  <h1 className='underline'>Wordpress</h1>
+                                  <h1 className='underline'>GITHUB/Gitlab</h1>
+                                  <h1 className='underline'>Postman</h1>
+                                  {/* <h1 className='underline'>Wordpress</h1> */}
                                   {/* <h1 className='underline'>Figma</h1> */}
                                   </div>
                                   

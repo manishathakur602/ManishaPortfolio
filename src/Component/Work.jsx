@@ -9,6 +9,8 @@ import tanish from '../assets/Images/imag1.jpg';
 import digisky from '../assets/Images/imag2.jpg';
 import astrologer from '../assets/Images/image3.jpg';
 import shaadi from '../assets/Images/Screenshot 2025-06-03 095609.png';
+import metaponder from '../assets/Images/metaponder.png';
+import nodegree from '../assets/Images/nodegree.png';
 
 
 
@@ -36,6 +38,20 @@ const projects = [
     name: 'Astrologer',
     visitLink: 'https://astroaghoribaba.com/',
     githubLink: 'https://github.com/manishathakur602/astrologer'
+  },
+  {
+    image: metaponder,
+    title: 'Web Development',
+    name: 'Metaponder Solution',
+    visitLink: 'http://metaponder.com/',
+    githubLink: 'https://github.com/manishathakur602/metapondernew'
+  },
+  {
+    image: nodegree,
+    title: 'Web Development',
+    name: 'Metaponder Solution',
+    visitLink: 'https://nodegree.in/',
+    githubLink: 'https://github.com/gsmental/nodegree_next'
   },
  
   {
