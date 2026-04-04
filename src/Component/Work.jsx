@@ -51,7 +51,7 @@ const projects = [
     title: 'Web Development',
     name: 'Nodegree',
     visitLink: 'https://nodegree.in/',
-    githubLink: 'https://github.com/gsmental/nodegree_next'
+    // githubLink: 'https://github.com/gsmental/nodegree_next'
   },
  
   {
